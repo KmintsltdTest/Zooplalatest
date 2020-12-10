@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89abf3eb-5c2a-49d5-98b3-47d8e5ef0f02" name="Default Changelist" comment="" />
+    <list default="true" id="89abf3eb-5c2a-49d5-98b3-47d8e5ef0f02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/features/CustomerCanSearchForPropertyForSale.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/features/CustomerCanSearchForPropertyForSale.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -26,6 +32,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="co.uk.Zoopla" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +49,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2252" y="295" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607605379794">
+      <screen x="1920" y="47" width="1280" height="646" />
+    </state>
+    <state x="2252" y="295" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607605379794" />
+    <state x="2359" y="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1607605381941">
+      <screen x="1920" y="47" width="1280" height="646" />
+    </state>
+    <state x="2359" y="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607605381941" />
     <state width="1148" height="2" key="GridCell.Tab.0.bottom" timestamp="1607602826193">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
@@ -54,9 +73,9 @@
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
     <state width="1148" height="2" key="GridCell.Tab.0.right/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607602826193" />
-    <state x="2063" y="21" key="SettingsEditor" timestamp="1607602821997">
+    <state x="2063" y="47" key="SettingsEditor" timestamp="1607605668554">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
-    <state x="2063" y="21" key="SettingsEditor/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607602821997" />
+    <state x="2063" y="47" key="SettingsEditor/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607605668554" />
   </component>
 </project>
