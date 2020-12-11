@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-10T15:58:51.184Z",
+        "line": 21,
+        "name": "Customer can search for properties for sale.",
+        "description": "",
+        "id": "search-property-for-sale;customer-can-search-for-properties-for-sale.;|location|-minprice|maxprice-|property-|-bed|propertytype-|;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7591474400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter a \"\u003cLocation\u003e\"in the search textbox",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_enter_a_location_in_the_search_textbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 963900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select \"\u003cMinPrice\u003e\"from Min price dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_min_price_from_min_price_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I select \"\u003cMaxPrice\u003e\"from M dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select \"\u003cProperty\u003e\"from Property  dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select \"\u003cBed\u003e\"from bedrooms dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I click on the search button",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_click_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "a list of \"\u003cPropertyType\u003e\" in \"\u003cLocation\u003e\" are displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "application should be closed.",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      }
+    ],
+    "name": "Search property for sale",
+    "description": "  As a customer i want the ability to be able to search\n  for  a property so that i can purchase the property.",
+    "id": "search-property-for-sale",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/Zoopla/features/CustomerCanSearchForPropertyForSale.feature",
+    "tags": []
+  }
+]

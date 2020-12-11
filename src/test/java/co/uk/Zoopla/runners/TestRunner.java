@@ -6,7 +6,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = {"C:src/test/java/co/uk/Zoopla/features" }
         ,plugin = {"pretty","json:target/report.json","de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"},
         glue= {"co/uk/Zoopla/stepDefinitions"}
-        
+        ,tags="@ignore" //this makes sure only feature files with @ignore will run
 )
-public class TestRunner {
+public class TestRunner
+{
+    // this is only used to generate the stepdefinitions
 }

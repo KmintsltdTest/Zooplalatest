@@ -21,10 +21,25 @@
     </expand>
     <select />
   </component>
+  <component name="BuildServerSettings">
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="89abf3eb-5c2a-49d5-98b3-47d8e5ef0f02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/runners/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Common/BrowserClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Common/DriverLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/stepDefinitions/ForSaleSearchSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/features/CustomerCanSearchForPropertyForSale.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/features/CustomerCanSearchForPropertyForSale.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/runners/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +64,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1lSpHOK0qQd0r5wCGDeKfKtUAWt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -62,6 +81,43 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="co.uk.Zoopla" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZooplaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.uk.Zoopla.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.uk.Zoopla.runners" />
+      <option name="MAIN_CLASS_NAME" value="co.uk.Zoopla.runners.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="co.uk.Zoopla.runners in ZooplaProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZooplaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.uk.Zoopla.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.uk.Zoopla.runners" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="JUnit.co.uk.Zoopla.runners in ZooplaProject" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,6 +141,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2252" y="295" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607605379794">
       <screen x="1920" y="47" width="1280" height="646" />
@@ -94,22 +153,26 @@
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
     <state x="2359" y="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607605381941" />
-    <state width="1148" height="2" key="GridCell.Tab.0.bottom" timestamp="1607602826193">
+    <state width="1148" height="25" key="GridCell.Tab.0.bottom" timestamp="1607681333577">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
-    <state width="1148" height="2" key="GridCell.Tab.0.bottom/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607602826193" />
-    <state width="1148" height="2" key="GridCell.Tab.0.center" timestamp="1607602826193">
+    <state width="1148" height="25" key="GridCell.Tab.0.bottom/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607681333577" />
+    <state width="1148" height="25" key="GridCell.Tab.0.center" timestamp="1607681333577">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
-    <state width="1148" height="2" key="GridCell.Tab.0.center/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607602826193" />
-    <state width="1148" height="2" key="GridCell.Tab.0.left" timestamp="1607602826192">
+    <state width="1148" height="25" key="GridCell.Tab.0.center/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607681333577" />
+    <state width="1148" height="25" key="GridCell.Tab.0.left" timestamp="1607681333577">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
-    <state width="1148" height="2" key="GridCell.Tab.0.left/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607602826192" />
-    <state width="1148" height="2" key="GridCell.Tab.0.right" timestamp="1607602826193">
+    <state width="1148" height="25" key="GridCell.Tab.0.left/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607681333577" />
+    <state width="1148" height="25" key="GridCell.Tab.0.right" timestamp="1607681333577">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
-    <state width="1148" height="2" key="GridCell.Tab.0.right/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607602826193" />
+    <state width="1148" height="25" key="GridCell.Tab.0.right/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607681333577" />
+    <state x="2346" y="73" key="RollbackChangesDialog" timestamp="1607612525347">
+      <screen x="1920" y="47" width="1280" height="646" />
+    </state>
+    <state x="2346" y="73" key="RollbackChangesDialog/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607612525347" />
     <state x="2063" y="47" key="SettingsEditor" timestamp="1607605668554">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
