@@ -1,4 +1,5 @@
 package co.uk.Zoopla.stepDefinitions;
+import co.uk.Zoopla.Pages.BasePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -6,17 +7,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class ForSaleSearchSteps {
-    String Url=("https://www.zoopla.co.uk");
+public class ForSaleSearchSteps extends BasePage //this Class inherits the BasePage Class and all its methods
+{
     @Given("I navigate to zoopla homepage")
-    public void i_navigate_to_zoopla_homepage() {
-        WebDriver driver;//import selenium into the project and create an object of selenium then initialise.
-        WebDriverManager.chromedriver().setup();//step1.setup webdriver using webdrivermanager
-        driver=new ChromeDriver();//initialised driver to an object of the chromedriver
-        //Maximizes current window
-        driver.manage().window().maximize();
-        //navigates  to url
-        driver.navigate().to(Url);
+    public void i_navigate_to_zoopla_homepage()
+    {
+        LaunchUrl();
     }
     @When("I enter a \"<Location>\"in the search textbox")
     public void i_enter_a_location_in_the_search_textbox() {
