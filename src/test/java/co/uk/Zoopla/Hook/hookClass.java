@@ -21,6 +21,6 @@ public class hookClass extends BrowserClass //extends browser class
     public void tearDown() throws InterruptedException
     {
         CloseBrowser(); //closes browser
-        Shutdown(); //shuts the web browser
+
     }
 }

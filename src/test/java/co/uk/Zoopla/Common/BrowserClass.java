@@ -74,8 +74,5 @@ public class BrowserClass extends DriverLib {
         Thread.sleep(5000);
         driver.quit(); //quits browser
     }
-    public void Shutdown()
-    {
-        driver.close(); //closes web as a whole.
-    }
+
 }

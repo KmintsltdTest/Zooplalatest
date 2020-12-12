@@ -34,8 +34,12 @@
   <component name="ChangeListManager">
     <list default="true" id="89abf3eb-5c2a-49d5-98b3-47d8e5ef0f02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Common/BrowserClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Common/BrowserClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Hook/hookClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Hook/hookClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/Pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/features/CustomerCanSearchForPropertyForSale.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/features/CustomerCanSearchForPropertyForSale.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/runners/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/stepDefinitions/ForSaleSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/Zoopla/stepDefinitions/ForSaleSearchSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
@@ -44,8 +48,11 @@
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_425917846.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_425917846.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_1922747921.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_1922747921.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Common/BrowserClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Common/BrowserClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Hook/hookClass.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/Pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/stepDefinitions/ForSaleSearchSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/stepDefinitions/ForSaleSearchSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/Zoopla/stepDefinitions/ForSaleSearchSteps.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,22 +170,22 @@
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
     <state x="2359" y="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607605381941" />
-    <state width="1237" height="76" key="GridCell.Tab.0.bottom" timestamp="1607796662077">
+    <state width="1237" height="21" key="GridCell.Tab.0.bottom" timestamp="1607806429235">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
-    <state width="1237" height="76" key="GridCell.Tab.0.bottom/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607796662077" />
-    <state width="1237" height="76" key="GridCell.Tab.0.center" timestamp="1607796662076">
+    <state width="1237" height="21" key="GridCell.Tab.0.bottom/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607806429235" />
+    <state width="1237" height="21" key="GridCell.Tab.0.center" timestamp="1607806429235">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
-    <state width="1237" height="76" key="GridCell.Tab.0.center/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607796662076" />
-    <state width="1237" height="76" key="GridCell.Tab.0.left" timestamp="1607796662076">
+    <state width="1237" height="21" key="GridCell.Tab.0.center/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607806429235" />
+    <state width="1237" height="21" key="GridCell.Tab.0.left" timestamp="1607806429235">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
-    <state width="1237" height="76" key="GridCell.Tab.0.left/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607796662076" />
-    <state width="1237" height="76" key="GridCell.Tab.0.right" timestamp="1607796662077">
+    <state width="1237" height="21" key="GridCell.Tab.0.left/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607806429235" />
+    <state width="1237" height="21" key="GridCell.Tab.0.right" timestamp="1607806429235">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
-    <state width="1237" height="76" key="GridCell.Tab.0.right/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607796662077" />
+    <state width="1237" height="21" key="GridCell.Tab.0.right/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607806429235" />
     <state x="2091" y="17" key="Maven.ArtifactSearchDialog" timestamp="1607717811962">
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
@@ -191,5 +198,9 @@
       <screen x="1920" y="47" width="1280" height="646" />
     </state>
     <state x="2063" y="47" key="SettingsEditor/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607683944070" />
+    <state x="2304" y="262" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1607803984138">
+      <screen x="1920" y="47" width="1280" height="646" />
+    </state>
+    <state x="2304" y="262" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/1920.47.1280.646/3840.0.1920.1040/0.71.1920.969@1920.47.1280.646" timestamp="1607803984138" />
   </component>
 </project>

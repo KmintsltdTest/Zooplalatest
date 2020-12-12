@@ -28,6 +28,4 @@ public class BasePage extends DriverLib //extends Driverlib Class , this holds c
         select.selectByIndex(Index);//parse the Index to select
     }
 
-
-
 }

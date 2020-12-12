@@ -4,21 +4,19 @@ import co.uk.Zoopla.Pages.HomePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class ForSaleSearchSteps extends BasePage //this Class inherits the BasePage Class and all its methods
 {
-    HomePage homePage= PageFactory.initElements(driver,HomePage.class);//instantiating HomepPage(driver,HomePage.Class as inheritance)
+    HomePage homePage = PageFactory.initElements(driver, HomePage.class);//instantiating HomepPage(driver,HomePage.Class as inheritance)
+    private String Location;
     @Given("I navigate to zoopla homepage")
     public void i_navigate_to_zoopla_homepage()
     {
         LaunchUrl();
     }
     @When("I enter a \"<Location>\"in the search textbox")
-    public void i_enter_a_location_in_the_search_textbox(String Location)
+    public void iEnterAInTheSearchTextbox(String Location)
     {
         homePage.enterLocation(Location);
     }
@@ -50,5 +48,4 @@ public class ForSaleSearchSteps extends BasePage //this Class inherits the BaseP
     public void application_should_be_closed()
     {
     }
-
 }

@@ -1,1 +1,938 @@
-[]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-12T20:38:20.703Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7990584100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.Hook.hookClass.setup()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Error Page is displayed for invalid Search.",
+        "description": "",
+        "id": "search-property-for-sale;error-page-is-displayed-for-invalid-search.;|location|-minprice|maxprice-|property-|-bed-|propertytype-|;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1616754200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PAUL\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat co.uk.Zoopla.Common.BrowserClass.Shutdown(BrowserClass.java:79)\r\n\tat co.uk.Zoopla.Hook.hookClass.tearDown(hookClass.java:24)\r\n",
+                  "duration": 5928354200,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I enter a \"\u003cLocation\u003e\"in the search textbox",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.iEnterAInTheSearchTextbox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 513400,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I select \"\u003cMinPrice\u003e\"from Min price dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_min_price_from_min_price_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I select \"\u003cMaxPrice\u003e\"from Max price dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_max_price_from_max_price_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I select \"\u003cProperty\u003e\"from Property type  dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_property_from_property_type_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157500,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I select \"\u003cBed\u003e\"from Bedrooms dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_bed_from_bedrooms_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I click on the search button",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_click_on_the_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "a list of \"\u003cPropertyType\u003e\" in \"\u003cLocation\u003e\" are displayedSc",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPropertyType\u003e\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"\u003cLocation\u003e\"",
+                  "offset": 30
+                }
+              ],
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed_sc(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "application should be closed.",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.application_should_be_closed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-12T20:38:36.422Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6410453600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.Hook.hookClass.setup()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Error Page is displayed for invalid Search.",
+        "description": "",
+        "id": "search-property-for-sale;error-page-is-displayed-for-invalid-search.;|location|-minprice|maxprice-|property-|-bed-|propertytype-|;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1627962700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PAUL\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat co.uk.Zoopla.Common.BrowserClass.Shutdown(BrowserClass.java:79)\r\n\tat co.uk.Zoopla.Hook.hookClass.tearDown(hookClass.java:24)\r\n",
+                  "duration": 6007035800,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I enter a \"\u003cLocation\u003e\"in the search textbox",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.iEnterAInTheSearchTextbox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I select \"\u003cMinPrice\u003e\"from Min price dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_min_price_from_min_price_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997500,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205400,
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I select \"\u003cMaxPrice\u003e\"from Max price dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_max_price_from_max_price_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I select \"\u003cProperty\u003e\"from Property type  dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_property_from_property_type_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I select \"\u003cBed\u003e\"from Bedrooms dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_bed_from_bedrooms_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117800,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I click on the search button",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_click_on_the_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 880800,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "a list of \"\u003cPropertyType\u003e\" in \"\u003cLocation\u003e\" are displayedSc",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPropertyType\u003e\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"\u003cLocation\u003e\"",
+                  "offset": 30
+                }
+              ],
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed_sc(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "application should be closed.",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.application_should_be_closed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-12T20:38:50.493Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6269077100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.Hook.hookClass.setup()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Error Page is displayed for invalid Search.",
+        "description": "",
+        "id": "search-property-for-sale;error-page-is-displayed-for-invalid-search.;|location|-minprice|maxprice-|property-|-bed-|propertytype-|;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1526457900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PAUL\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat co.uk.Zoopla.Common.BrowserClass.Shutdown(BrowserClass.java:79)\r\n\tat co.uk.Zoopla.Hook.hookClass.tearDown(hookClass.java:24)\r\n",
+                  "duration": 5892089100,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I enter a \"\u003cLocation\u003e\"in the search textbox",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.iEnterAInTheSearchTextbox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108200,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I select \"\u003cMinPrice\u003e\"from Min price dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_min_price_from_min_price_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I select \"\u003cMaxPrice\u003e\"from Max price dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_max_price_from_max_price_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I select \"\u003cProperty\u003e\"from Property type  dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_property_from_property_type_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I select \"\u003cBed\u003e\"from Bedrooms dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_bed_from_bedrooms_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I click on the search button",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_click_on_the_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "a list of \"\u003cPropertyType\u003e\" in \"\u003cLocation\u003e\" are displayedSc",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPropertyType\u003e\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"\u003cLocation\u003e\"",
+                  "offset": 30
+                }
+              ],
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed_sc(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "application should be closed.",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.application_should_be_closed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-12T20:39:04.196Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6250574000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.Zoopla.Hook.hookClass.setup()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Error Page is displayed for invalid Search.",
+        "description": "",
+        "id": "search-property-for-sale;error-page-is-displayed-for-invalid-search.;|location|-minprice|maxprice-|property-|-bed-|propertytype-|;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1542139400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PAUL\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat co.uk.Zoopla.Common.BrowserClass.Shutdown(BrowserClass.java:79)\r\n\tat co.uk.Zoopla.Hook.hookClass.tearDown(hookClass.java:24)\r\n",
+                  "duration": 5896650800,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I enter a \"\u003cLocation\u003e\"in the search textbox",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.iEnterAInTheSearchTextbox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I select \"\u003cMinPrice\u003e\"from Min price dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_min_price_from_min_price_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I select \"\u003cMaxPrice\u003e\"from Max price dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_max_price_from_max_price_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I select \"\u003cProperty\u003e\"from Property type  dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_property_from_property_type_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163600,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I select \"\u003cBed\u003e\"from Bedrooms dropdown",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_select_bed_from_bedrooms_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I click on the search button",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.i_click_on_the_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "a list of \"\u003cPropertyType\u003e\" in \"\u003cLocation\u003e\" are displayedSc",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPropertyType\u003e\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"\u003cLocation\u003e\"",
+                  "offset": 30
+                }
+              ],
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.a_list_of_in_are_displayed_sc(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "application should be closed.",
+            "match": {
+              "location": "co.uk.Zoopla.stepDefinitions.ForSaleSearchSteps.application_should_be_closed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "co.uk.Zoopla.Hook.hookClass.tearDown()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      }
+    ],
+    "name": "Search property for sale",
+    "description": "         As a customer i want the ability to be able to search\n         for  a property so that i can purchase the property.",
+    "id": "search-property-for-sale",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/Zoopla/features/CustomerCanSearchForPropertyForSale.feature",
+    "tags": []
+  }
+]
