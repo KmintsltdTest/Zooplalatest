@@ -22,10 +22,10 @@ public class BasePage extends DriverLib //extends Driverlib Class , this holds c
         Select select=new Select(element);
         select.selectByValue(Value);//parse the value to select
     }
-    public void selectElementByIndex(WebElement element,int Index)
+    public void selectElementByIndex(WebElement element,int index)
     {
         Select select=new Select(element);
-        select.selectByIndex(Index);//parse the Index to select
+        select.selectByIndex(index);//parse the Index to select
     }
 
 }
